@@ -56,10 +56,10 @@ CREATE TABLE `logs` (
 
 -- 插入示例习惯
 INSERT INTO `habits` (`title`, `type`, `duration`, `icon`, `subtitle`, `color_key`) VALUES
-('晨间阅读', 'countdown', 1500, '📖', '每天进步一点点', 'blue'),
-('上下班打卡', 'punch', 0, '💼', '努力工作', 'green'),
-('运动打卡', 'stopwatch', 0, '🏃', '保持健康', 'orange'),
-('喝水', 'punch', 0, '💧', '每天8杯水', 'purple');
+('晨间阅读', 'countdown', 1500, 'book', '每天进步一点点', 'blue'),
+('上下班打卡', 'punch', 0, 'work', '努力工作', 'green'),
+('运动打卡', 'stopwatch', 0, 'sports', '保持健康', 'orange'),
+('喝水', 'punch', 0, 'water', '每天8杯水', 'purple');
 
 -- 插入示例打卡记录
 INSERT INTO `logs` (`habit_id`, `date`, `timestamp`, `duration`) VALUES

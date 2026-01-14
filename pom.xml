@@ -13,8 +13,8 @@
     </parent>
 
     <groupId>com.tracker</groupId>
-    <artifactId>daily-habit-tracker</artifactId>
-    <version>1.0.0</version>
+    <artifactId>habit-tracker</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <name>Daily Habit Tracker</name>
     <description>每日打卡 App 后端服务</description>
 
